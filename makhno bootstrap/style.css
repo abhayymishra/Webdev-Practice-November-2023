@@ -1,0 +1,100 @@
+* {
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+
+body{
+  text-transform: uppercase;
+  background-color: rgb(161, 102, 102);
+  color: #fff;
+}
+
+body a {
+    color: #fff;
+}
+
+
+
+nav .cross .first {
+    width: 28px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0px;
+    transition: 0.4s;
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+nav .cross .second {
+    width: 28px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0px;
+    transition: 0.4s;
+    transform: translate(0, 2px) rotate(45deg);
+}
+
+.big-block .below-icons {
+    margin-top: 20px;
+}
+
+.total-block .c-bar {
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.below {
+    width: 500px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 30px !important;
+}
+
+.big-block .studio-plus {
+    position: absolute;
+    margin-left: 284px;
+}
+
+.big-block .store-plus {
+    position: absolute;
+    margin-left: 293px;
+}
+
+.big-block .art-plus {
+    position: absolute;
+    margin-left: 206px;
+}
+
+.big-block .left-list {
+    margin-left: 20px !important;
+}
+
+.big-block .left-list .item .item-content span:nth-child(2) {
+    position: absolute;
+    font-size: 2rem;
+    letter-spacing: -.03em;
+    line-height: 120%;
+    left: 130px;
+}
+
+.big-block .left-list .item .item-content span:nth-child(1) {
+
+}
+
+.total-block .arrow {
+    position: absolute;
+    right: 215px;
+}
+
+.left-list {
+    margin-top: 25px !important;
+}
+
+.left-list .plus {
+    font-size: 35px;
+    position: absolute;
+    left: 500px;
+    
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tooltip {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+    left: 90%;
+    transform:translate(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    white-space: nowrap;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(105, 87, 87);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navbar .symbols {
+    display: flex;
+}
+
+nav .navbar .symbols .first {
+    width: 28px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0px;
+    transition: 0.4s;
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+nav .navbar .symbols .second {
+    width: 28px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0px;
+    transition: 0.4s;
+    transform: translate(0, 2px) rotate(45deg);
+}
+
+.big-container {
+
+}
+
+.big-container .left-list .item1 :after {
+    border-bottom: .1rem solid black;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transform-origin: left;
+    width: 100%
+}
+
+.left-container {
+    
+}
+
+.left-container .left-list .below {
+    width: 450px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.right-container {
+    margin-right: 180px;
+    margin-bottom: 20px;
+}
+
+.right-container a {
+    color: #fff;
+}
+
+.right-container .total-block {
+    float: right;
+}
+
+.right-container .total-block .c-bar {
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.right-container .total-block .arrow {
+    position: absolute;
+    right: 250px;
+}
+
